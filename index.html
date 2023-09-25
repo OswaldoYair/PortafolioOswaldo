@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafolio Oswaldo</title>
+    
 </head>
 <body>
-    Hola Mundo
+  <header>
+    <div class="header">
+      <a href="#default" class="logo">Logo</a>
+      <div class="header-right">
+        <a class="active" href="#home">Sobre Mi</a>
+        <a href="#contact">Proyectos</a>
+        <a href="#about">Testimonios</a>
+        <a href="#about">Contactos</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="inicio">
+    <div class="imagen-perfil">
+        <!-- Aquí coloca tu imagen de perfil -->
+        <img src="recursos/FotoPerfil.jpeg" alt="Tu Foto de Perfil">
+    </div>
+    <div class="informacion-personal">
+        <h1>Oswaldo Yair Hernandez Santos</h1>
+        <p>Desarrollador Web</p>
+        <p class="frase">Viaje antes que destino</p>
+    </div>
+    <div class="tecnologias-imagen">
+        <!-- Aquí coloca la imagen relacionada con tecnologías -->
+        <img src="recursos/tecImg.png" alt="Tecnologías">
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>¡Hola! Soy Oswaldo Yair, un desarrollador web principiante, con cierta experiencia en Python, C++, C#, JavaScript. Durante mi carrera, he trabajado en diferentes proyectos realizando aplicaciones nativas de computadora como tambien paginas o sistemas web. Mi objetivo es crear soluciones web efectivas y atractivas que cumplan con las necesidades de mis clientes y usuarios.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <div class="proyecto-contenido">
+          <img src="recursos/proyecto1.jpeg" alt="Proyecto 1">
+          <div class="info-proyecto">
+              <h3>Creacion de un punto de venta</h3>
+              <p>El motivo de la creacion de este proyecto es como metodo de enseñanza al realizar una guia de desarrollo, utilizando herramientas como visual studio</p>
+          </div>
+      </div>
+  </div>
+  <div class="proyecto">
+    <div class="proyecto-contenido">
+        <img src="recursos/proyecto2.jpeg" alt="Proyecto 1">
+        <div class="info-proyecto">
+            <h3>Search More Salud</h3>
+            <p>El desarrollo de este proyecto consta en un sistema web con funcionalidades de buscador, donde se utiliza herramientas de desarrollo como laravel, entre otras</p>
+        </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="slider">
+        <div class="slide">
+            <img src="recursos/usuario.png" alt="Cliente 1">
+            <h3>Rosalba Castillo Hernandez</h3>
+            <p>Es un gran programador respecto al backend, ademas de crear trabajos muy limpios</p>
+        </div>
+        <div class="slide">
+            <img src="recursos/usuario.png" alt="Cliente 2">
+            <h3>Brayan Reyes Hernandez</h3>
+            <p>Trabaje con el un tiempo, por lo que es muy facil de entenderle por su comunicacion</p>
+        </div>
+        <div class="slide">
+          <img src="recursos/usuario.png" alt="Cliente 2">
+          <h3>Armando Hernandez Hernandez</h3>
+          <p>Sus sistemas son muy limpios y faciles de entender</p>
+        </div>
+    </div>
+    <button id="prev">Anterior</button>
+    <button id="next">Siguiente</button>
+  </section>
+
+
+  <script src="animaciones.js"></script>
 </body>
 </html>
