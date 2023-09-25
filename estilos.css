@@ -179,3 +179,45 @@ button {
   margin: 10px;
   cursor: pointer;
 }
+
+/* Estilos para los contactos */
+#contacto {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+#contacto h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.info-contacto {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #007BFF; /* Cambia el color de los iconos según tus preferencias */
+}
+
+a {
+  color: #007BFF; /* Cambia el color de los enlaces según tus preferencias */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Cambia el estilo al pasar el mouse sobre los enlaces */
+}
