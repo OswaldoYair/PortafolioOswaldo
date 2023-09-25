@@ -53,7 +53,7 @@
 }
 
 .imagen-perfil img {
-    width: 180px; /* Ajusta el tamaño de tu imagen de perfil */
+    width: 180px;
     width: 180px;
     border-radius: 50%;
     border: 5px solid #fff;
@@ -95,4 +95,44 @@
   font-size: 18px;
   color: #555;
   line-height: 1.5;
+}
+
+/* Estilos de los box de los proyectos */
+#proyectos {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.proyecto {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.proyecto-contenido {
+    position: relative;
+}
+
+.proyecto img {
+    max-width: 40%;
+}
+
+.info-proyecto {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.proyecto:hover .info-proyecto {
+    display: block;
 }
